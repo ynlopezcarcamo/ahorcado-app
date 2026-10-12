@@ -1,56 +1,71 @@
-# Welcome to your Expo app 👋
+# El Ahorcado Colombia
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Aplicación móvil del clásico juego del ahorcado, desarrollada con React Native y Expo. El jugador escribe su nombre, elige una categoría y un nivel de dificultad, y debe descubrir la palabra oculta tocando las letras de un teclado en pantalla antes de que se complete el dibujo del ahorcado.
 
-## Get started
+El banco de palabras tiene temática colombiana: capitales, animales, frutas y comidas típicas.
 
-1. Install dependencies
+## Tecnologías
 
+- **React Native** con **Expo** (SDK 57)
+- **JavaScript** (ES6+)
+- **React Navigation** (stack)
+- **AsyncStorage** para estadísticas, ranking y configuración
+- **expo-haptics** para la vibración
+- **expo-audio** para los efectos de sonido
+- **EAS Build** para generar el APK
+
+## Cómo ejecutar el proyecto
+
+1. Clona el repositorio:
    ```bash
-   npm install
-   ```
+   git clone https://github.com/ynlopezcarcamo/ahorcado-app.git
+   cd ahorcado-app
+Instala las dependencias:
 
-2. Start the app
+npm install
+Copiar
+Inicia el servidor de desarrollo:
 
-   ```bash
-   npx expo start
-   ```
+npx expo start
+Copiar
+Escanea el código QR con la app Expo Go en tu celular Android.
+Funcionalidades
+Ingreso del nombre del jugador (obligatorio).
+Cuatro categorías y tres niveles de dificultad.
+Teclado en pantalla de la A a la Z, incluida la Ñ.
+Dibujo progresivo del ahorcado en seis etapas.
+Pistas según el nivel, con descuento de puntos.
+Puntuación en tiempo real y multiplicador por nivel.
+Cronómetro de 90 segundos en el nivel difícil.
+Vibración y sonidos al acertar, fallar, ganar o perder.
+Estadísticas, mejor racha y top 10 de puntajes guardados en el dispositivo.
+Tema claro y oscuro.
+Confirmación al presionar el botón «atrás» de Android durante la partida.
+Estructura del proyecto
 
-In the output, you'll find options to open the app in a
+ahorcado-app/
+├── App.js
+├── app.json
+├── assets/
+│   └── sonidos/
+├── src/
+│   ├── navigation/     → AppNavigator.js
+│   ├── screens/        → Inicio, Instrucciones, Categoría, Juego, Estadísticas, Configuración
+│   ├── components/     → Ahorcado, PalabraOculta, Teclado
+│   ├── hooks/          → useTema.js
+│   ├── data/           → palabras.js
+│   ├── storage/        → almacenamiento.js
+│   ├── lib/            → sonidos.js
+│   └── theme/          → colores.js
+└── docs/diseno/        → exportación del diseño
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Capturas de pantalla
+(Agregar aquí las capturas del celular)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Enlaces
+Diseño en Figma: (agregar enlace)
+APK instalable: (agregar enlace)
+Video explicativo: (agregar enlace)
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Autor
+Yineth Natalia López Cárcamo Programación Móvil — Uniciencia
