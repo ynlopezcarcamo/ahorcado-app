@@ -7,7 +7,7 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#1F3864"
     },
@@ -22,13 +22,24 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#1F3864"
       },
-      "package": "com.halduin.ahorcado"
+      "package": "com.halduin.ahorcado",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-audio"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "88251ed2-a676-4ac6-abf7-18cddfaefc12"
+      }
+    }
   }
 }
