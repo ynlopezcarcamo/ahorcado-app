@@ -1,0 +1,26 @@
+export const TEMAS = {
+  oscuro: {
+    fondo: "#1F3864",
+    fondoCard: "rgba(255,255,255,0.1)",
+    texto: "#FFFFFF",
+    textoSuave: "rgba(255,255,255,0.7)",
+    boton: "#2E74B5",
+    botonTexto: "#FFFFFF",
+    input: "#F2F2F2",
+    inputTexto: "#1F3864",
+    acierto: "#2E9E5B",
+    fallo: "#D64545",
+  },
+  claro: {
+    fondo: "#F2F2F2",
+    fondoCard: "#FFFFFF",
+    texto: "#1F3864",
+    textoSuave: "rgba(31,56,100,0.7)",
+    boton: "#2E74B5",
+    botonTexto: "#FFFFFF",
+    input: "#FFFFFF",
+    inputTexto: "#1F3864",
+    acierto: "#2E9E5B",
+    fallo: "#D64545",
+  },
+};
