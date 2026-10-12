@@ -63,7 +63,7 @@ Capturas de pantalla
 (Agregar aquí las capturas del celular)
 
 Enlaces
-Diseño en Figma: (agregar enlace)
+Diseño en Figma: https://www.figma.com/design/KiW4EUOqxswYOk972ASxtY/Sin-t%C3%ADtulo?node-id=35-147&t=TaecPHln8otY4ips-1
 APK instalable: https://expo.dev/accounts/ynatalialopc/projects/ahorcado/builds/62544a31-d9dd-4fc3-9b13-7d24740591e3
 
 Video explicativo: (agregar enlace)
