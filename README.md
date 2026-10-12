@@ -60,7 +60,15 @@ ahorcado-app/
 └── docs/diseno/        → exportación del diseño
 
 Capturas de pantalla
-(Agregar aquí las capturas del celular)
+## Capturas de pantalla
+
+![Inicio](docs/diseno/capturas/inicio.jpeg)
+![Categoría](docs/diseno/capturas/categoria.jpeg)
+![Juego](docs/diseno/capturas/juego.jpeg)
+![Estadísticas](docs/diseno/capturas/estadisticas.jpeg)
+![Configuración](docs/diseno/capturas/configuracion.jpeg)
+![Instrucciones](docs/diseno/capturas/instrucciones.jpeg)
+
 
 Enlaces
 Diseño en Figma: https://www.figma.com/design/KiW4EUOqxswYOk972ASxtY/Sin-t%C3%ADtulo?node-id=35-147&t=TaecPHln8otY4ips-1
