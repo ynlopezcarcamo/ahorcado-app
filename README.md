@@ -64,7 +64,8 @@ Capturas de pantalla
 
 Enlaces
 Diseño en Figma: (agregar enlace)
-APK instalable: (agregar enlace)
+APK instalable: https://expo.dev/accounts/ynatalialopc/projects/ahorcado/builds/62544a31-d9dd-4fc3-9b13-7d24740591e3
+
 Video explicativo: (agregar enlace)
 
 Autor
